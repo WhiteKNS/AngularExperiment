@@ -26,6 +26,9 @@ h1{
 canvas{
     width: 500px;
     height: 500px;
+     position: absolute;
+    left: 470px;
+    top: 0px;
 }
 
 #buttonGo{
