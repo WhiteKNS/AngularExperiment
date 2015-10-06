@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+
+<html lang="en"  ng-app="Experiment">
+<head>
+
+    <meta charset="UTF-8">
+    <script data-require="angular.js@1.3.0" data-semver="1.3.0" src="https://code.angularjs.org/1.3.0/angular.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+
+</head>
+
+
+<body ng-controller="MainController">
+
+<div></div>
+<canvas id="MyCanvas" width="500" height="500" ></canvas>
+<button id= "buttonGo" type="button" ng-click = "Go()">Go!</button>
+<label id = "nameOfTheGame">Dots Game</label>
+<h4 id ="Player1">Player1: {{PointsForPlayer1}}  </h4>
+<h4 id="Player2">Player2:  {{PointsForPlayer2}} </h4>
+
+</body>
+</html>

@@ -1,0 +1,56 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font:15px/1.3 'Open Sans', sans-serif;
+    color: #5e5b64;
+    text-align:center;
+}
+
+h1{
+    color: #c82528;
+
+}
+
+.circle{
+    width: 100px;
+    height: 100px;
+    background: #F0F8FF;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+}
+
+canvas{
+    width: 500px;
+    height: 500px;
+}
+
+#buttonGo{
+    width: 100px;
+    height: 50px;
+    position:absolute;
+    top: 100px;
+    left: 200px;
+
+}
+
+#nameOfTheGame{
+    position: absolute;
+    left: 200px;
+    top: 150px;
+    font: 12pt algerian;
+}
+
+#Player1{
+    position: absolute;
+    left: 200px;
+    top: 200px;
+}
+#Player2{
+    position: absolute;
+    left: 200px;
+    top: 225px;
+}
