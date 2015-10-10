@@ -9,7 +9,7 @@ var app = angular.module("Experiment", []);
         $scope.PointsForPlayer1 =0;
         $scope.PointsForPlayer2 =0;
         // создать подключение
-        var socket = new WebSocket("ws://https://node-server-dots.herokuapp.com");
+        var socket = new WebSocket("ws://https://node-server-dots.herokuapp.com:8081");
         console.log("here");
 
         var Field = matrixArray();
